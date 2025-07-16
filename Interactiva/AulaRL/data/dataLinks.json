@@ -7,7 +7,7 @@
     {
         "item": "Ver como estudiante",
         "background": "./img/lectura.png",
-        "link": "https://docs.google.com/document/d/1udRWuw9PobB1xrANCGqMEANNSV_1E7QJ/edit?usp=sharing&ouid=113311507192305889920&rtpof=true&sd=true"
+        "link": "<iframe src=\"https://docs.google.com/document/d/e/2PACX-1vR4V584sjq9r7mac-BFN3ntq_zRW6jvB4jqc9Gc9Y5RXyIthKdvMZf-10H15TxQGw/pub?embedded=true\"></iframe>"
     },
     {
         "item": "Duplicar,  configurar y agregar elemento en tablero",

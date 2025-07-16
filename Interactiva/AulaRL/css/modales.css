@@ -15,8 +15,14 @@
 dialog {
     justify-self: center;
     align-self: center;
+    width: 90%;
     height: auto;
     border-radius: 10px;
+}
+
+dialog:open iframe {
+    width: 100%;
+    aspect-ratio: 1;
 }
 
 dialog div {
@@ -27,12 +33,6 @@ dialog div {
 dialog p {
     line-height: 1.5rem;
 }
-
-/* dialog:open {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-} */
 
 div.cerrarModal {
     display: flex;
@@ -64,7 +64,6 @@ div.cerrarModal + * {
 }
 
 /* Modales: ubicación, tamaño, colores */
-
 #reinoModales dialog {
     color: var(--color2);
     background-color: var(--color1claro);

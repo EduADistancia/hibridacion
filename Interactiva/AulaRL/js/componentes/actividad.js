@@ -14,25 +14,6 @@ function crearModalLista(idModal, link) {
     return dialogReino;
 }
 
-// function crearModalExtras(idModal, titulo, texto) {
-//     let dialogExtra = document.createElement('dialog');
-//     dialogExtra.id = idModal;
-
-//     let h4Modal = document.createElement('h4');
-//     h4Modal.textContent = titulo;
-
-//     let pModal = document.createElement('p');
-//     pModal.textContent = texto;
-
-//     dialogExtra.append(
-//         crearBotonCerrarModal(idModal),
-//         h4Modal,
-//         pModal
-//     );
-
-//     return dialogExtra;
-// }
-
 // Cierre de modal
 function crearBotonCerrarModal(idModal) {
     let cerrarDialog = document.createElement('button');
@@ -84,52 +65,6 @@ async function crearIndicaciones(datos) {
             crearModalLista(botonReino.value, dato.link)
         );
     }
-
-    // for (let dato of datos.definicionesExtras) {
-    //     let modalExtraDef = crearModalExtras(
-    //         dato.clave, dato.termino, dato.definicion);
-    //     defExtras.append(modalExtraDef);
-    //     document.querySelectorAll('button.defExtra').forEach(b => b.title = "Ver descripción");
-    // }
-
 }
 
-// Modificación del HTML - Actividad
-// async function crearActividad(datos) {
-//     let contenedorDraggables = document.querySelector("#elementosActividad");
-//     let contenedorModalesElementos = document.querySelector('#elementosEncontrados')
-
-//     for (let dato of datos) {
-//         let elementoDraggable = document.createElement('div');
-//         elementoDraggable.classList.add(`cont${dato.elemento.replace(" ", "")}`)
-        
-//         let elemento = document.createElement('p');
-//         elemento.textContent = dato.elemento;
-//         elemento.classList.add('word');
-//         elemento.draggable = true;
-//         elemento.setAttribute('name', dato.reino);
-        
-//         let botonDescripcion = document.createElement('button');
-//         botonDescripcion.textContent = "🛈";
-//         botonDescripcion.title = "Ver descripción"
-//         botonDescripcion.value = dato.elemento.replace(" ", "");
-//         botonDescripcion.classList.add('elementoDescripcion')
-
-//         let modalElemento = crearModalExtras(
-//             dato.elemento.replace(" ", ""),
-//             dato.elemento,
-//             dato.descripcion
-//         );
-
-//         modalElemento.classList.add('elementoModal');
-//         contenedorModalesElementos.append(modalElemento);
-
-//         elementoDraggable.append(elemento, botonDescripcion);
-
-//         contenedorDraggables.append(elementoDraggable);
-//     }
-// }
-
-
-// export { crearActividad, crearIndicaciones }
 export { crearIndicaciones }
