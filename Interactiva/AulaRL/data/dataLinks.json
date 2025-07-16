@@ -1,0 +1,27 @@
+[
+    {
+        "item": "Crear grupos- importar masivo",
+        "background": "./img/video.png",
+        "link": "<iframe src=\"https://drive.google.com/file/d/1g2IHTOnpTezTKfEyu8gWfhYAsvt7Of6s/preview\" width=\"640\" height=\"480\" allow=\"autoplay\"></iframe>"
+    },
+    {
+        "item": "Ver como estudiante",
+        "background": "./img/lectura.png",
+        "link": "https://docs.google.com/document/d/1udRWuw9PobB1xrANCGqMEANNSV_1E7QJ/edit?usp=sharing&ouid=113311507192305889920&rtpof=true&sd=true"
+    },
+    {
+        "item": "Duplicar,  configurar y agregar elemento en tablero",
+        "background": "./img/video.png",
+        "link": "<iframe src=\"https://drive.google.com/file/d/1JnRrBz_F_6Runkz9hcvnzhzmmf1MCqwE/preview\" width=\"640\" height=\"480\" allow=\"autoplay\"></iframe>"
+    },
+    {
+        "item": "Finalización de actividad y del curso",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/e9W_-XNl1Nk?si=oVf1NNvN31pHNht3\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "Matricular usuarios en un curso de forma masiva",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rRs-1Zay1Og?si=X633y_20vz2rD-5J\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+]

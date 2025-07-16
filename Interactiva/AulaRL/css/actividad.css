@@ -1,0 +1,232 @@
+#contenidoActividad {
+    margin: 1.5rem 0;
+    padding-bottom: 1.5rem;
+    background-color: var(--color3claro);
+    border-radius: 30px;
+}
+
+#contenidoActividad h2 {
+    background-color: var(--color3);
+    padding: 1.5rem 2rem;
+    border-radius: 20px;
+    height: 6rem;
+}
+
+#contenidoActividad h2 + p {
+    padding: 0 2rem;
+}
+
+/* Drag & Drop */ 
+#elementosActividad * {
+    border-radius: 10px;
+    margin: 0.25rem 0.25rem;
+    background-color: var(--color2);
+    color: var(--color5);
+    text-align: center;
+}
+
+#elementosActividad > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#elementosActividad p{
+    cursor: pointer;
+}
+
+#elementosActividad button {
+    width: 2.5rem;
+    aspect-ratio: 1;
+    text-shadow: none;
+    border: none;
+    font-size: 2rem;
+}
+
+#elementosActividad button:hover {
+    color: var(--color4);
+    background-color: var(--color1);
+}
+
+.drop-highlight {
+    color: #153244;
+    background-color: #ffcc00;
+}
+
+.oculto {
+    display: none;
+}
+
+.drop-mov {
+    background-color: #8de2d6;
+    border-radius: 5px;
+}
+
+.dropped {
+    color: var(--color5);
+    background-color: var(--color2);
+    border-radius: 5px;
+    margin: 0.5rem 0;
+    padding: 0;
+    font-size: smaller;
+}
+
+/* Retroalimentación */
+
+.imgEstado {
+    width: 1.5rem;
+    align-self: center;
+}
+
+p.word {
+    display: flex;
+}
+
+#retroalimentacion dialog:open {
+    position: fixed;
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 2rem;
+    background-color: var(--color3);
+    border: none;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+#retroalimentacion dialog .botonera {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+#retroalimentacion dialog .botonera>.boton {
+    width: 10rem;
+}
+
+dialog::backdrop {
+    background-color: var(--color5);
+    opacity: 0.5;
+}
+
+.textoRetro {
+    color: var(--color2);
+}
+
+.textoRetro > p {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.imgRetro{
+    display: flex;
+    justify-content: center;
+}
+
+.imgRetro > img {
+    width: 5rem;
+    aspect-ratio: 1;
+}
+
+.claveContinuar {
+    width: 80%;
+    border-radius: 10px;
+    background-color: var(--color2);
+    color: var(--color5);
+    text-align: center;
+    justify-self: center;
+    padding: 1rem 0;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/* PUNTOS DE CORTE */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    #elementosActividad {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    div#reinosBiologicos > button.reino > div > p {
+        display: none;
+    }
+
+    #elementosActividad * {
+        font-size: smaller;
+    }
+
+    .retroalimentacion {
+        flex-direction: column-reverse;
+    }
+
+    #contenidoActividad h2 {
+        height: 4.5rem;
+    }
+
+    #reinosBiologicos .dropped {
+        text-shadow: none;
+        padding: 0 0.25rem;
+        font-size: smaller;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    #elementosActividad {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    div#reinosBiologicos > button.reino > div > p {
+        display: none;
+    }
+
+    div.word.dropped {
+        margin: 0.25rem 0;
+    }
+
+    #contenidoActividad h2 {
+        height: 4.5rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .flexContainer {
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 0 0.5rem;
+    }
+
+    .flexContainer > div {
+        margin: 0.5rem;
+    }
+
+    #elementosActividad {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .completo {
+        grid-template-columns: 100%;
+    }
+
+    div#reinosBiologicos > button.reino > div > p {
+        display: inherit;
+    }
+
+    #contenidoActividad h2 {
+        height: 6rem;
+        text-align: center;
+    }
+}
