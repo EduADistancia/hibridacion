@@ -29,12 +29,8 @@ function crearBotonCerrarModal(idModal) {
 
 // Modificación del HTML - Indicaciones
 async function crearIndicaciones(datos) {
-
-    // Tarjetas circulares y su modal
     let tarjetas = document.querySelector('#reinosBiologicos');
     let contenedorModales = document.querySelector('#reinoModales');
-
-    // Modales de deficiones extras
     let contadorReinos = 1;
 
     for (let dato of datos) {
@@ -43,28 +39,33 @@ async function crearIndicaciones(datos) {
         botonReino.title = "Acceder";
         botonReino.value = `recurso${contadorReinos}`;
 
-        // Imagen de fondo reino
-        let style = document.createElement("style");
-        style.innerHTML = `.reino:nth-child(${contadorReinos})::before {
-            background: url("${dato.background}") center/cover no-repeat;}`;
-        document.head.appendChild(style);
+        // ⬇️ Fondo como un <div> interno, no ::before
+        let fondoReino = document.createElement('div');
+        fondoReino.classList.add('fondoReino');
+        fondoReino.style.background = `url("${dato.background}") center/cover no-repeat`;
+        fondoReino.style.position = 'absolute';
+        fondoReino.style.top = 0;
+        fondoReino.style.left = 0;
+        fondoReino.style.width = '100%';
+        fondoReino.style.height = '100%';
+        fondoReino.style.pointerEvents = 'none';
 
-        let divReino = document.createElement('div');
-
+        // Contenido textual
         let h3Reino = document.createElement('h3');
-        h3Reino.innerText = `${dato.item}`;
+        h3Reino.innerText = dato.item;
+        fondoReino.append(h3Reino);
 
-        divReino.append(h3Reino);
-        botonReino.append(divReino);
+        // Armar botón
+        botonReino.appendChild(fondoReino);
 
-        tarjetas.append(botonReino);
-        contadorReinos ++;
+        tarjetas.appendChild(botonReino);
 
-        // Modal definicion reino
-        contenedorModales.append(
+        // Modal
+        contenedorModales.appendChild(
             crearModalLista(botonReino.value, dato.link)
         );
+
+        contadorReinos++;
     }
 }
-
 export { crearIndicaciones }

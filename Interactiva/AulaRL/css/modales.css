@@ -1,9 +1,6 @@
 /* Acceso modal */
 .infoBotonImg {
-    font-size: large;
-    border-style: none;
-    background-color: transparent;
-    border-radius: 10px;
+    background-color: var(--color3);
 }
 
 .infoBotonImg:hover {
@@ -18,6 +15,7 @@ dialog {
     width: 90%;
     height: auto;
     border-radius: 10px;
+    border: none;
 }
 
 dialog:open iframe {
@@ -28,6 +26,10 @@ dialog:open iframe {
 dialog div {
     display: flex;
     justify-content: center;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.5);
 }
 
 dialog p {
