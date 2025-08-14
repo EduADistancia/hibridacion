@@ -1,0 +1,87 @@
+/* Acceso modal */
+.infoBotonImg {
+    /* background-color: var(--color3); */
+    background-color: rgba(253, 225, 110, 0.4);
+}
+
+.infoBotonImg:hover {
+    background-color: var(--color1claro);
+    /* border: 5px solid var(--color1); */
+}
+
+/* Modales general*/
+dialog {
+    justify-self: center;
+    align-self: center;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    border: none;
+}
+
+dialog:open iframe {
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+dialog div {
+    display: flex;
+    justify-content: center;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+dialog p {
+    line-height: 1.5rem;
+}
+
+div.cerrarModal {
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.cerrarModal > button {
+    width: 2rem;
+    aspect-ratio: 1;
+    font-size: x-large;
+    font-weight: 700;
+    border-style: none;
+    border-radius: 50%;
+    background-color: transparent;
+    color: var(--color5);
+}
+
+div.cerrarModal > button:hover {
+    color: var(--color2);
+    background-color: var(--color1);
+}
+
+div.cerrarModal + h3, div.cerrarModal + h4 {
+    font-size: 1.5rem;
+}
+
+div.cerrarModal + * {
+    margin: 1rem 0;
+}
+
+/* Modales: ubicación, tamaño, colores */
+#reinoModales dialog {
+    color: var(--color2);
+    background-color: var(--color1claro);
+}
+
+/* PUNTOS DE CORTE */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}

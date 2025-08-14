@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Area Educación a Distacia - Min. de Educación GCABA">
+    <meta name="description" content="Material didáctico adicional.">
+    <link rel="shortcut icon" href="./ico/favicon-96x96.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/actividad.css">
+    <link rel="stylesheet" href="./css/modales.css">
+    <title>Hibridación - Tutoriales</title>
+</head>
+<body>
+    <div id="contenedor">
+        
+        <!-- Membrete superior -->
+        <div id="membsup">
+            <img class="membrete" src="./img/membreteHeader.jpg" alt="Membrete Ministerio de Educación GCABA">
+        </div>
+        
+        <!-- Contenido del documento -->
+        <div id="contenido" class="contPpal">
+            <header>
+                <div class="divHeader">
+                    <h1 id="titulo">Tutoriales recomendados</h1>
+                </div>
+            </header>
+
+            <main>
+                <section id="indicaciones">
+                    <div class="cabSection">
+                        <i><img src="./img/seleccione.png" alt="Icono seleccionar"></i>
+                        <h2>Seleccionar y visualizar</h2>
+                    </div>
+                    <p>En cada item encontrarás información relacionada al tema.</p>
+                </section>
+                <section id="contenidoActividad">
+
+                    <!-- Contenido dinámico -->
+                    <div id="contendorModales">
+                        <div id="reinoModales"></div>
+                    </div>
+                    <div class="flexContainer">
+                        <div>
+                            <h2>
+                                Buscar: 
+                                <input type="text" id="videoFilter" placeholder="Filtrar videos...">
+                            </h2>
+                            <div id="reinosBiologicos"></div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+        </div>
+        <footer>
+                <p>Desarrollado por Educación a Distancia</p>
+                <p>|</p>
+                <p>Agencia de Habilidades Para el Futuro</p>
+        </footer>
+
+    </div>
+    <script src="./js/main.js" type="module"></script>
+</body>
+</html>

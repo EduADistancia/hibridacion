@@ -1,0 +1,132 @@
+[
+    {
+        "item": "¿Cómo acceder al campus virtual de la agencia?",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/gXZf2TizWq4?si=RWYIoMfQs89B10r6\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "¿Cómo recuperar la contraseña?",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/j97HCWI2P2Y?si=UbVCvjcbWyV6e-iP\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "¿Cómo accedo a mis cursos?",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/KzBL7UtI444?si=Xu0B01UVKtSKifFj\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "¿Cómo editar el perfil?",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/gwGTt19yjOQ?si=9PiEIX62YSXjahC0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "Recurso: Área de texto y medios",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/NSc1-ee__B4?si=PsLrQWl9ymgpu2Eg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "Copia de aula desde administración",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/sJ7TR_57NUk?si=rome9W-UTA35r6G5\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "Creación masiva de aulas",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/yaBA6cJQKc8?si=bcTLT7lyWw4KfT5n\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "Importar grupos",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/29x3Val7oIs?si=ZgtsGKlmWmbQAZ2Y\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "Crear un grupo y eliminar grupos",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/NofDOxTKgfg?si=fwXvQXxI858s0iai\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "Crear un grupo y añadir estudiante",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/KcXkPlCulVY?si=Z_41AChBD8gw4t9q\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "Creación de matriculación manual por contraseña",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/QxorcUJd2kY?si=3zCx5Q9BjpbBW7oJ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "Banco de preguntas de forma masiva",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/fHAihEWk3FA?si=Vx7rgbxKLRrN0PNv\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "Configurar recurso tablero",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/PAbDEUqxUhA?si=KYR_WRoom8pYdXqa\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "Gestionar elementos dentro del tablero",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/C7piSM5Riek?si=VSbfZ_M_i8sZf4nO\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "Configurar Estado de finalización de actividades",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/o4ywbgS4D8E?si=LYQtU6ZtMaDQmHgv\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "Finalización de curso a través de finalización de actividad",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ONCTP2PfdgQ?si=_peoHYBF7pUO10Hu\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "Ver informe de finalización de actividad",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/U_NbL8e5V4M?si=fM_9tAi8Czi3D5ue\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "Importar algunos recursos y actividades",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xI0l0GgnxuU?si=HqETYGvUVdhkDMGp\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "Cambiar banners del aula",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/B-w17-LxDFE?si=hRpPj26At4rNh2wo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "Mover sección (mosaico)",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://drive.google.com/file/d/1mURiAp0fa90whcBkvDHiFBaEorUgU1FY/preview\" title=\"Reproducir video\" frameborder=\"0\" allow=\"autoplay\"></iframe>"
+    },
+    {
+        "item": "Mostrar mosaico",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://drive.google.com/file/d/1OGLLRTRtpOkCWCrQAvR8Gn5eddWKsa9d/preview\" title=\"Reproducir video\" frameborder=\"0\" allow=\"autoplay\"></iframe>"
+    },
+    {
+        "item": "Ocultar sección (mosaico)",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://drive.google.com/file/d/1b9L79gGoO2EBxohDQH8zZxPn4D9ZV67n/preview\" title=\"Reproducir video\" frameborder=\"0\" allow=\"autoplay\"></iframe>"
+    },
+    {
+        "item": "Eliminar sección (mosaico)",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://drive.google.com/file/d/1tIk_-SSTN5xcVhJ4wVNWQ26ACrLpvazb/preview\" title=\"Reproducir video\" frameborder=\"0\" allow=\"autoplay\"></iframe>"
+    },
+    {
+        "item": "Matricular usuarios en un curso de forma masiva",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rRs-1Zay1Og?si=wF58rL3gUlCG7dka\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "Recuperar contraseña Olvidada",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/UUN951usDoI?si=u_pmK-HZ4unuJ__I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+        "item": "Tomar asistencia",
+        "background": "./img/video.png",
+        "link": "<iframe width=\"560\" height=\"315\" src=\"https://drive.google.com/file/d/1y2stZNX-wKJ7fDRD512IAAWB_gIMHj9y/preview\" title=\"Reproducir video\" frameborder=\"0\" allow=\"autoplay\"></iframe>"
+    }
+]
